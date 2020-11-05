@@ -6,4 +6,11 @@
 - 🌱 I’m currently learning React.js
 - 👯 I'm looking for a job
 
+Contacts:
+E-mail: peter.tolkachev@gmail.com  
+Telegram: @PeterTolkachev
+WhatsApp: +7(916)114-01-21
+Facebook: https://www.facebook.com/Peter.Tolkachev/
+Instagram: https://www.instagram.com/peter.tolkachev/
+
 
