@@ -42,7 +42,15 @@ Instagram: https://www.instagram.com/peter.tolkachev/
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://fb.com/peter.tolkachev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="peter.tolkachev" height="30" width="40" /></a>
+E-mail: peter.tolkachev@gmail.com  
+
+Telegram: @PeterTolkachev
+
+WhatsApp: +7(916)114-01-21
+
+Facebook: https://www.facebook.com/Peter.Tolkachev/
+
+Instagram: https://www.instagram.com/peter.tolkachev/
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
