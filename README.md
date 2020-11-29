@@ -1,4 +1,4 @@
-<img align="center" src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="300">
+<div align="center"><img src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="300"></div>
 
 <h1 align="center">Hi 👋, I'm TolkachevPeter</h1>
 <h3 align="center">Frontend developer from Moscow</h3>
