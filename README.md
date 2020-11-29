@@ -19,3 +19,5 @@ Facebook: https://www.facebook.com/Peter.Tolkachev/
 Instagram: https://www.instagram.com/peter.tolkachev/
 
 
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=TolkachevPeter)](https://github.com/anuraghazra/github-readme-stats)
+
