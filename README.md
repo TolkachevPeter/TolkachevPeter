@@ -1,28 +1,5 @@
 <img src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="300">
 
-### Hi there 👋
-
-- 🔭 I’m currently working on NodeJs
-- 🌱 I’m currently learning React.js
-- 👯 I'm looking for a job
-
-Contacts:
-
-E-mail: peter.tolkachev@gmail.com  
-
-Telegram: @PeterTolkachev
-
-WhatsApp: +7(916)114-01-21
-
-Facebook: https://www.facebook.com/Peter.Tolkachev/
-
-Instagram: https://www.instagram.com/peter.tolkachev/
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TolkachevPeter)](https://github.com/anuraghazra/github-readme-stats)
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=TolkachevPeter)](https://github.com/anuraghazra/github-readme-stats)
-
-
 <h1 align="center">Hi 👋, I'm TolkachevPeter</h1>
 <h3 align="center">Frontend developer from Moscow</h3>
 
@@ -39,6 +16,8 @@ Instagram: https://www.instagram.com/peter.tolkachev/
 - 💬 Ask me about **react, vue**
 
 - 📫 How to reach me **peter.tolkachev@gmail.com**
+
+- 👯 I'm looking for a **job**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
