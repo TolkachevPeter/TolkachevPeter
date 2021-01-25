@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **peter.tolkachev@gmail.com**
 
-- 👯 I'm looking for a **job**
+- 👯 I work at the Higher School of Economics, I am not looking for a job.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
