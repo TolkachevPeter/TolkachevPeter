@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **peter.tolkachev@gmail.com**
 
-- 👯 I work at the Higher School of Economics, I am not looking for a job.
+- 👯 I work at the Higher School of Economics https://www.hse.ru/org/persons/207923195
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
