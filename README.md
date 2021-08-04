@@ -7,9 +7,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tolkachevpeter" alt="tolkachevpeter" /></a> </p>
 
-- 🔭 I’m currently working on **I’m currently working on NodeJs**
+- 🔭 I’m currently working on **I’m currently working on NodeJs, NextJs, NestJs**
 
-- 🌱 I’m currently learning **ReactJS, VueJS**
+- 🌱 I’m currently learning **ReactJS, VueJS 3, TypeScript**
 
 - 👨‍💻 All of my projects are available at [https://github.com/TolkachevPeter](https://github.com/TolkachevPeter)
 
