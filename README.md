@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **peter.tolkachev@gmail.com**
 
-- 👯 I work at the Higher School of Economics https://www.hse.ru/org/persons/207923195
+- 👯 I work at the Higher School of Economics
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -25,9 +25,6 @@ E-mail: peter.tolkachev@gmail.com
 
 Telegram: @PeterTolkachev
 
-Facebook: https://www.facebook.com/Peter.Tolkachev/
-
-Instagram: https://www.instagram.com/peter.tolkachev/
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tolkachevpeter&show_icons=true&locale=en&layout=compact" alt="tolkachevpeter" /></p>
