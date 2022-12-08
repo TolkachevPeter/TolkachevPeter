@@ -1,7 +1,7 @@
 <div align="center"><img src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="300"></div>
 
 <h1 align="center">Hi 👋, I'm TolkachevPeter</h1>
-<h3 align="center">Frontend developer from Moscow</h3>
+<h3 align="center">Middle Full Stack Developer from Moscow</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tolkachevpeter&label=Profile%20views&color=0e75b6&style=flat" alt="tolkachevpeter" /> </p>
 
