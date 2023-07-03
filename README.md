@@ -30,6 +30,18 @@ My passion for technology and computers started in childhood with my first compu
 
 Thanks to my technical talent, I have equipped my own office with excellent devices, including two iMacs and two MacBook Pros, which makes me fully ready for remote work and productive task execution.
 
+### My Strengths
+
+I have a high level of self-organization and discipline that helped me achieve success in the scientific field and I now apply these qualities in programming. I always set specific goals for myself and pursue their achievement, no matter how complex the path may be.
+
+My scientific career has developed in me the ability for analytical thinking. This allows me to quickly navigate complex tasks and find optimal solutions using available resources.
+
+Speed and precision in work are characteristic of me. Thanks to the experience of writing scientific articles and dissertations, I've learned to formulate thoughts quickly and clearly, which is applicable in both programming and communication within the team.
+
+I am open to new technologies and always ready to learn. My passion for technology, which has been evident since my childhood, assists me in this. I enjoy learning new languages and frameworks, and I am always ready to accept new challenges to become even better at what I do.
+
+Thanks to my fully equipped office, I can work remotely and productively, which makes me a flexible and adaptive specialist, ready for any circumstances.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 E-mail: peter.tolkachev@gmail.com  
