@@ -19,6 +19,17 @@
 
 - 👯 I work at the Higher School of Economics
 
+
+### A Little About My Professional Journey
+
+My journey into IT started with an unusual task – automating the process of writing scientific texts. When I was engaged in writing scientific publications, I was inspired by the idea of creating a system that could optimize this process, taking a cue from the optimization of translations in Google Translate. This passion led me to programming and the conviction that in the future machines, not humans, will write texts, which will become one of the key ways to pass the Turing test and answer the question, "Can a machine think?".
+
+I love science, and I believe that programmers are the innovators of the 21st century. The self-organization and discipline I acquired while writing my thesis became the key qualities that helped me succeed in this field. I always bring all matters to an end, for many years I managed to work and study at the same time, not taking a single academic leave.
+
+My passion for technology and computers started in childhood with my first computer. Despite the fact that I broke it on the very first day, I fixed it on the second day. This "broke-fixed" experience taught me to figure out technical problems and find solutions.
+
+Thanks to my technical talent, I have equipped my own office with excellent devices, including two iMacs and two MacBook Pros, which makes me fully ready for remote work and productive task execution.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 E-mail: peter.tolkachev@gmail.com  
