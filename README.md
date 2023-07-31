@@ -54,3 +54,31 @@ Telegram: @PeterTolkachev
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tolkachevpeter&show_icons=true&locale=en" alt="tolkachevpeter" /></p>
 
+
+<details>
+<summary>&nbsp;</summary>
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Мета-тэги для SEO -->
+    <title>Толкачев Петр - Fullstack Developer</title>
+    <meta name="description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
+    <meta name="keywords" content="Толкачев Петр, TolkachevPeter, Fullstack Developer, разработчик">
+    
+    <!-- Также можно использовать Schema.org markup для дополнительной индексации -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Толкачев Петр",
+        "alternateName": "TolkachevPeter",
+        "jobTitle": "Fullstack Developer",
+    }
+    </script>
+</head>
+
+```
+</details>
