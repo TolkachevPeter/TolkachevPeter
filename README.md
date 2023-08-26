@@ -67,6 +67,10 @@ Telegram: @PeterTolkachev
     <title>Толкачев Петр - Fullstack Developer</title>
     <meta name="description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
     <meta name="keywords" content="Толкачев Петр, TolkachevPeter, Fullstack Developer, разработчик">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Толкачев Петр - Fullstack Developer">
+    <meta property="og:description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
+
     
     <!-- Также можно использовать Schema.org markup для дополнительной индексации -->
     <script type="application/ld+json">
@@ -75,7 +79,7 @@ Telegram: @PeterTolkachev
         "@type": "Person",
         "name": "Толкачев Петр",
         "alternateName": "TolkachevPeter",
-        "jobTitle": "Fullstack Developer",
+        "jobTitle": "Fullstack Developer"
     }
     </script>
 </head>
