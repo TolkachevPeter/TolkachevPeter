@@ -66,7 +66,7 @@ Telegram: @PeterTolkachev
     <!-- Мета-тэги для SEO -->
     <title>Толкачев Петр - Fullstack Developer</title>
     <meta name="description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
-    <meta name="keywords" content="Толкачев Петр, TolkachevPeter, Fullstack Developer, разработчик">
+    <meta name="keywords" content="Толкачев Петр, TolkachevPeter, Fullstack Developer, разработчик, JavaScript, TypeScript, ВШЭ, МГУ, HSE, MSU, Vue, React, DevOps, Docker, работа">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Толкачев Петр - Fullstack Developer">
     <meta property="og:description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
