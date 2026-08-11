@@ -23,59 +23,102 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tolkachevpeter" alt="tolkachevpeter" /></a> </p>
 
-### What I've built
+I build the infrastructure other developers ship on. Feature flags, progressive delivery, internal platforms: the layer between somebody's laptop and production.
 
-**Release platform on a fork of Unleash** — role-based access control, dynamic segments, custom SDK. Started with 7 product teams, grew to ~50. Change failure rate 2.4% → 0.9%, time-to-market 10 → 5 days, release frequency ×4.
+Most of that work is invisible when it goes well. Nobody thanks you for the release that didn't break. I made peace with this a while ago.
 
-**Backstage developer portal** — one pane of glass for services, CI/CD status and DORA metrics for leadership. New-engineer onboarding down to ~2 days.
+## Things I've built
 
-**Master data platform** (major bank, current) — corporate reference data, TypeScript end to end: Node.js services, React frontend, record versioning and change history, Keycloak SSO with RBAC over OAuth2/OIDC, Kubernetes deploys through CI/CD.
+### A release platform on a fork of Unleash
 
-**Before that** — HSE University portal serving 40,000+ students and staff: Node.js (Express/Koa), Vue/Nuxt with SSR, WebSocket → SSE migration, one page brought from 30 s to 1 s.
+Started with seven product teams and ended up serving about fifty. I added a role model for access, dynamic segments and an SDK of our own. The numbers people usually ask about: change failure rate went from 2.4% to 0.9%, time to market from ten days to five, release frequency up four times.
 
-### Writing
+The code was the easy part. The hard part is flag hygiene. Teams add flags happily and never delete them, and a year later you are reading conditionals nobody can explain. If I built it again I would put an owner and an expiry date on every temporary flag from day one, and make the platform nag people about it.
 
-- [Забудьте о локальных if-ах: как централизованные feature flags делают жизнь разработчика проще](https://habr.com/ru/articles/897376/) — Habr, 22K reads
-- Essays on platforms, digital labour and how infrastructure shapes the people working inside it — [tolkachev.space](https://tolkachev.space)
+### A developer portal on Backstage
 
-### Stack
+One place for services, CI/CD status and DORA metrics. Leadership stopped asking for reports and started opening a dashboard, which was most of the point. Onboarding a new engineer dropped to about two working days.
+
+### A master data platform at a large bank (current)
+
+Corporate reference data, TypeScript from end to end: Node.js services, a React frontend, versioning and change history so neighbouring systems can reconcile against a known state, SSO through Keycloak with roles on top of OAuth2 and OIDC, deploys into Kubernetes through CI/CD.
+
+Reference data sounds boring until you watch four systems disagree about what counts as a legal entity.
+
+### A university portal for 40,000+ students and staff
+
+Node.js on the back, Vue and Nuxt with SSR on the front. I moved realtime delivery from WebSocket to SSE and got one particularly slow page from 30 seconds down to 1. I also migrated a pile of JavaScript and Perl to TypeScript, which removed a whole class of runtime errors and made me unpopular for about two weeks.
+
+## Writing
+
+[Забудьте о локальных if-ах: как централизованные feature flags делают жизнь разработчика проще](https://habr.com/ru/articles/897376/), Habr, 22K reads.
+
+It is an overview piece, and the commenters were right that it stays too general. The specific version, with the fork, the rollout and everything that went wrong on the way, is what I am writing next.
+
+Essays on platforms, digital labour and how infrastructure shapes the people working inside it live at [tolkachev.space](https://tolkachev.space).
+
+## Stack
 
 `TypeScript` `Node.js` `React` `Vue / Nuxt` `PostgreSQL` `Kubernetes` `Docker` `GitLab CI` `TeamCity` `Unleash` `Backstage` `Keycloak / OAuth2 / OIDC`
 
-### Background
+## Before the code
 
-Candidate of Sciences (PhD) in Philosophy, Lomonosov Moscow State University — ten years of engineering built on top of an academic career. It's why I treat developer experience as a question of how work is organised, not just which tools are installed.
+I have a PhD in philosophy from Moscow State University, where I taught and published for several years before I wrote anything that ran in production. Less of a detour than it sounds. My subject was how tools shape the people using them, which is what developer experience is about once you strip out the tooling vocabulary.
 
-Open to remote platform engineering, DevEx and TypeScript backend roles and contracts. English B2, French B1.
+My first computer arrived when I was a kid. I broke it on day one and fixed it on day two. That is more or less still the method.
+
+## A note on the repositories here
+
+Most of what is public on this account is old, from evenings spent learning frontend. The platform work lives inside companies and cannot be pushed here. I am moving some of it out: an open source tool for feature flag hygiene is the next thing on the list.
+
+## What I am after
+
+Remote platform engineering, developer experience and TypeScript backend work. Full time or contract. English B2, French B1.
+
+Write to me about release engineering, feature flags or internal platforms and I will answer.
 
 <details>
 <summary>🇷🇺 Русская версия</summary>
 
 <br>
 
-Я строю инфраструктуру, на которой выкатываются другие разработчики: фичефлаги, progressive delivery, внутренние платформы для разработчиков.
+Я строю инфраструктуру, на которой выкатываются другие разработчики. Фичефлаги, progressive delivery, внутренние платформы: слой между чьим-то ноутбуком и продакшеном.
 
-**Что построил:**
+Когда этот слой работает, его не видно. За релиз, который не сломался, никто не благодарит. Я с этим давно смирился.
 
-— Релизная платформа на форке Unleash: ролевая модель доступа, динамические сегменты, собственный SDK. С 7 продуктовых команд до ~50. Change failure rate 2,4% → 0,9%, time-to-market 10 → 5 дней, частота релизов ×4.
+### Что построил
 
-— Портал разработчика на Backstage: сервисы, статус CI/CD и DORA-метрики на одной витрине. Онбординг нового инженера — около 2 дней.
+**Релизная платформа на форке Unleash.** Начиналось с семи продуктовых команд, закончилось примерно пятьюдесятью. Сделал ролевую модель доступа, динамические сегменты и собственный SDK. Цифры, про которые обычно спрашивают: change failure rate с 2,4% до 0,9%, time-to-market с десяти дней до пяти, частота релизов выросла вчетверо.
 
-— Платформа мастер-данных (крупный банк, сейчас): корпоративные справочники целиком на TypeScript — сервисы на Node.js, фронтенд на React, версионирование и история изменений, SSO через Keycloak с ролевой моделью поверх OAuth2/OIDC, деплой в Kubernetes через CI/CD.
+Код был простой частью. Сложная часть это гигиена флагов. Команды заводят их охотно и никогда не удаляют, а через год читаешь условия, которые никто не может объяснить. Если бы делал заново, на каждый временный флаг сразу вешал бы владельца и срок жизни, а платформа бы про это напоминала.
 
-— До этого — портал НИУ ВШЭ на 40 000+ студентов и сотрудников: Node.js (Express/Koa), Vue/Nuxt с SSR, миграция с WebSocket на SSE, одна из страниц ускорена с 30 секунд до 1.
+**Портал разработчика на Backstage.** Одно место для сервисов, статуса CI/CD и DORA-метрик. Руководство перестало просить отчёты и начало открывать дашборд, ради чего всё и затевалось. Онбординг нового инженера сократился примерно до двух рабочих дней.
 
-Кандидат философских наук (МГУ). Пишу о платформах, цифровом труде и о том, как инфраструктура формирует работающих внутри неё людей: [tolkachev.space](https://tolkachev.space)
+**Платформа мастер-данных в крупном банке (сейчас).** Корпоративные справочники, TypeScript от начала до конца: сервисы на Node.js, фронтенд на React, версионирование и история изменений, чтобы смежные системы могли сверяться с известным состоянием, SSO через Keycloak с ролями поверх OAuth2 и OIDC, деплой в Kubernetes через CI/CD.
 
-Открыт к удалённым позициям и контрактам: platform engineering, developer experience, бэкенд на TypeScript.
+Справочные данные кажутся скучными ровно до момента, когда четыре системы расходятся в том, что считать юридическим лицом.
+
+**Портал вуза на 40 000+ студентов и сотрудников.** Node.js на бэкенде, Vue и Nuxt с SSR на фронте. Перевёл realtime-доставку с WebSocket на SSE и ускорил одну особенно медленную страницу с 30 секунд до 1. Ещё перевёл кучу JavaScript и Perl на TypeScript: это убрало целый класс ошибок времени выполнения и сделало меня непопулярным недели на две.
+
+### До кода
+
+Кандидат философских наук МГУ, несколько лет преподавал и публиковался до того, как написал первую строчку, дошедшую до продакшена. Это меньший крюк, чем кажется. Я занимался тем, как инструменты формируют работающих с ними людей, а это и есть developer experience, если убрать словарь про тулинг.
+
+Первый компьютер появился у меня в детстве. В первый день я его сломал, во второй починил. С тех пор метод примерно тот же.
+
+### Про репозитории
+
+Почти всё публичное здесь старое, из вечеров, когда я разбирался с фронтендом. Платформенная работа живёт внутри компаний и сюда не выкладывается. Часть я вытаскиваю наружу: следующий пункт в списке это опенсорсный инструмент для гигиены фича-флагов.
+
+### Чего ищу
+
+Удалённые задачи по платформенной инженерии, developer experience и бэкенду на TypeScript. Полная занятость или контракт.
+
+Пишите про релиз-инженерию, фичефлаги и внутренние платформы, отвечу.
 
 peter.tolkachev@gmail.com · Telegram [@PeterTolkachev](https://t.me/PeterTolkachev)
 
 </details>
-
-<br>
-
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=tolkachevpeter&show_icons=true&locale=en&layout=compact&hide=html,css,scss" alt="Top languages" /></p>
 
 <details>
 <summary>&nbsp;</summary>
@@ -87,8 +130,8 @@ peter.tolkachev@gmail.com · Telegram [@PeterTolkachev](https://t.me/PeterTolkac
 
     <!-- Мета-тэги для SEO -->
     <title>Толкачев Петр / Petr Tolkachev — Platform Engineer</title>
-    <meta name="description" content="Петр Толкачёв (Petr Tolkachev) — платформенный инженер: feature flags, progressive delivery, internal developer platforms. TypeScript, Node.js, React, Kubernetes, Unleash, Backstage, Keycloak.">
-    <meta name="keywords" content="Толкачев Петр, Толкачёв Пётр, Petr Tolkachev, Peter Tolkachev, TolkachevPeter, Platform Engineer, платформенный инженер, Developer Experience, feature flags, фичефлаги, progressive delivery, Unleash, Backstage, DORA, TypeScript, JavaScript, Node.js, React, Kubernetes, Docker, CI/CD, Keycloak, OAuth2, OIDC, PostgreSQL, МГУ, MSU, работа, удаленно">
+    <meta name="description" content="Пётр Толкачёв (Petr Tolkachev) — платформенный инженер: feature flags, progressive delivery, internal developer platforms. TypeScript, Node.js, React, Kubernetes, Unleash, Backstage, Keycloak.">
+    <meta name="keywords" content="Толкачев Петр, Толкачёв Пётр, Petr Tolkachev, Peter Tolkachev, TolkachevPeter, Platform Engineer, платформенный инженер, Developer Experience, feature flags, фичефлаги, progressive delivery, Unleash, Backstage, DORA, TypeScript, JavaScript, Node.js, React, Kubernetes, Docker, CI/CD, Keycloak, OAuth2, OIDC, PostgreSQL, МГУ, MSU, работа, удалённо">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Petr Tolkachev — Platform Engineer">
     <meta property="og:description" content="Feature flags, progressive delivery, internal developer platforms. TypeScript · Node.js · Kubernetes.">
