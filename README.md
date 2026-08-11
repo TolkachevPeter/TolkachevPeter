@@ -1,81 +1,81 @@
 <div align="center"><img src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="300"></div>
 
-<h1 align="center">Hi 👋, I'm TolkachevPeter / Толкачев Петр </h1>
-<h3 align="center">Senior Full Stack Developer from Moscow</h3>
+<h1 align="center">Petr Tolkachev · Толкачев Петр</h1>
+
+<h3 align="center">Platform Engineer · Developer Experience</h3>
+
+<p align="center">
+  I build the infrastructure other developers ship on:<br>
+  feature flags, progressive delivery, internal developer platforms.
+</p>
+
+<p align="center">
+  <a href="https://tolkachev.space">tolkachev.space</a> ·
+  <a href="https://www.linkedin.com/in/tolkachevpeter">LinkedIn</a> ·
+  <a href="https://habr.com/ru/users/PeterTolkachev/">Habr</a> ·
+  <a href="mailto:peter.tolkachev@gmail.com">peter.tolkachev@gmail.com</a> ·
+  <a href="https://t.me/PeterTolkachev">Telegram</a>
+</p>
+
+---
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tolkachevpeter&label=Profile%20views&color=0e75b6&style=flat" alt="tolkachevpeter" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tolkachevpeter" alt="tolkachevpeter" /></a> </p>
 
-- 🔭 I’m currently working on **I’m currently working on NodeJs, NextJs, NestJs**
+### What I've built
 
-- 🌱 I’m currently learning **ReactJS, VueJS 3, TypeScript**
+**Release platform on a fork of Unleash** — role-based access control, dynamic segments, custom SDK. Started with 7 product teams, grew to ~50. Change failure rate 2.4% → 0.9%, time-to-market 10 → 5 days, release frequency ×4.
 
-- 👨‍💻 All of my projects are available at [https://github.com/TolkachevPeter](https://github.com/TolkachevPeter)
+**Backstage developer portal** — one pane of glass for services, CI/CD status and DORA metrics for leadership. New-engineer onboarding down to ~2 days.
 
-- 💬 Ask me about **react, vue**
+**Master data platform** (major bank, current) — corporate reference data, TypeScript end to end: Node.js services, React frontend, record versioning and change history, Keycloak SSO with RBAC over OAuth2/OIDC, Kubernetes deploys through CI/CD.
 
-- 📫 How to reach me **peter.tolkachev@gmail.com**
+**Before that** — HSE University portal serving 40,000+ students and staff: Node.js (Express/Koa), Vue/Nuxt with SSR, WebSocket → SSE migration, one page brought from 30 s to 1 s.
 
-- 👯 I work at the Higher School of Economics
+### Writing
 
+- [Забудьте о локальных if-ах: как централизованные feature flags делают жизнь разработчика проще](https://habr.com/ru/articles/897376/) — Habr, 22K reads
+- Essays on platforms, digital labour and how infrastructure shapes the people working inside it — [tolkachev.space](https://tolkachev.space)
 
-### A Little About My Professional Journey
+### Stack
 
-My journey into IT started with an unusual task – automating the process of writing scientific texts. When I was engaged in writing scientific publications, I was inspired by the idea of creating a system that could optimize this process, taking a cue from the optimization of translations in Google Translate. This passion led me to programming and the conviction that in the future machines, not humans, will write texts, which will become one of the key ways to pass the Turing test and answer the question, "Can a machine think?".
+`TypeScript` `Node.js` `React` `Vue / Nuxt` `PostgreSQL` `Kubernetes` `Docker` `GitLab CI` `TeamCity` `Unleash` `Backstage` `Keycloak / OAuth2 / OIDC`
 
-I love science, and I believe that programmers are the innovators of the 21st century. The self-organization and discipline I acquired while writing my thesis became the key qualities that helped me succeed in this field. I always bring all matters to an end, for many years I managed to work and study at the same time, not taking a single academic leave.
+### Background
 
-My passion for technology and computers started in childhood with my first computer. Despite the fact that I broke it on the very first day, I fixed it on the second day. This "broke-fixed" experience taught me to figure out technical problems and find solutions.
+Candidate of Sciences (PhD) in Philosophy, Lomonosov Moscow State University — ten years of engineering built on top of an academic career. It's why I treat developer experience as a question of how work is organised, not just which tools are installed.
 
-Thanks to my technical talent, I have equipped my own office with excellent devices, including two iMacs and two MacBook Pros, which makes me fully ready for remote work and productive task execution.
-
-### My Strengths
-
-I have a high level of self-organization and discipline that helped me achieve success in the scientific field and I now apply these qualities in programming. I always set specific goals for myself and pursue their achievement, no matter how complex the path may be.
-
-My scientific career has developed in me the ability for analytical thinking. This allows me to quickly navigate complex tasks and find optimal solutions using available resources.
-
-Speed and precision in work are characteristic of me. Thanks to the experience of writing scientific articles and dissertations, I've learned to formulate thoughts quickly and clearly, which is applicable in both programming and communication within the team.
-
-I am open to new technologies and always ready to learn. My passion for technology, which has been evident since my childhood, assists me in this. I enjoy learning new languages and frameworks, and I am always ready to accept new challenges to become even better at what I do.
-
-Thanks to my fully equipped office, I can work remotely and productively, which makes me a flexible and adaptive specialist, ready for any circumstances.
+Open to remote platform engineering, DevEx and TypeScript backend roles and contracts. English B2, French B1.
 
 <details>
 <summary>🇷🇺 Русская версия</summary>
 
-О себе:
+<br>
 
-Почему IT? Во время написания научных публикаций хотел оптимизировать написание текстов для получения грантов с помощью автоматического создания текстов, был вдохновлен оптимизацией переводов в Google Translate. Погружаясь в данную тематику, я и стал программистом, уверен, что в будущем тексты будут писать машины, а не люди, что станет одним из способов прохождения теста Тьюринга и ответ на вопрос: «Может ли машина мыслить?». Программисты – это новаторы XXI века, а мне хотелось бы заниматься наукой, а не ее историей, в будущем собираюсь переосмыслить вопрос Декарта через прохождение теста Тьюринга с помощью «машины».
+Я строю инфраструктуру, на которой выкатываются другие разработчики: фичефлаги, progressive delivery, внутренние платформы для разработчиков.
 
-Самоорганизованный — данное качество приобретается при написании диссертации: нужно самому придумать цель, разбить ее на задачи, начать выполнять;
+**Что построил:**
 
-Довожу все дела до конца — успевал работать и учиться одновременно, при этом ни разу не взял академический отпуск за много лет;
+— Релизная платформа на форке Unleash: ролевая модель доступа, динамические сегменты, собственный SDK. С 7 продуктовых команд до ~50. Change failure rate 2,4% → 0,9%, time-to-market 10 → 5 дней, частота релизов ×4.
 
-Целеустремленный — не хотел идти в армию, поэтому поставил перед собой цель закончить бакалавриат, магистратуру, аспирантуру. Цель выполнена;
+— Портал разработчика на Backstage: сервисы, статус CI/CD и DORA-метрики на одной витрине. Онбординг нового инженера — около 2 дней.
 
-Люблю совершенствоваться — следствие образования;
-Хорошо и быстро печатаю тексты — долгое время писал много писем по работе, научные публикации;
+— Платформа мастер-данных (крупный банк, сейчас): корпоративные справочники целиком на TypeScript — сервисы на Node.js, фронтенд на React, версионирование и история изменений, SSO через Keycloak с ролевой моделью поверх OAuth2/OIDC, деплой в Kubernetes через CI/CD.
 
-Обожаю технологии и компьютеры — еще в детстве у меня появился первый компьютер. В первый день я его сломал, во второй день починил. Виндовса 95 у меня более нет, но вот к процессу "сломал-починил" он меня подготовил. Вся научная деятельность происходит с помощью технологий: иностранную научную литературу невозможно получить в МГУ — она дорого стоит, поэтому приходится использовать "обходные" способы получения информации, что требует хорошей сноровки обходить платные подписки и умения правильно гуглить;
+— До этого — портал НИУ ВШЭ на 40 000+ студентов и сотрудников: Node.js (Express/Koa), Vue/Nuxt с SSR, миграция с WebSocket на SSE, одна из страниц ускорена с 30 секунд до 1.
 
-Имею отличные два iMac’a, два macbook’a pro и собственный офис — рабочее место обустроено, полностью готов к удаленной работе.
+Кандидат философских наук (МГУ). Пишу о платформах, цифровом труде и о том, как инфраструктура формирует работающих внутри неё людей: [tolkachev.space](https://tolkachev.space)
+
+Открыт к удалённым позициям и контрактам: platform engineering, developer experience, бэкенд на TypeScript.
+
+peter.tolkachev@gmail.com · Telegram [@PeterTolkachev](https://t.me/PeterTolkachev)
 
 </details>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-E-mail: peter.tolkachev@gmail.com  
+<br>
 
-Telegram: @PeterTolkachev
-
-</p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tolkachevpeter&show_icons=true&locale=en&layout=compact" alt="tolkachevpeter" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tolkachevpeter&show_icons=true&locale=en" alt="tolkachevpeter" /></p>
-
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=tolkachevpeter&show_icons=true&locale=en&layout=compact&hide=html,css,scss" alt="Top languages" /></p>
 
 <details>
 <summary>&nbsp;</summary>
@@ -84,27 +84,38 @@ Telegram: @PeterTolkachev
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Мета-тэги для SEO -->
-    <title>Толкачев Петр - Fullstack Developer</title>
-    <meta name="description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
-    <meta name="keywords" content="Толкачев Петр, TolkachevPeter, Fullstack Developer, разработчик, JavaScript, TypeScript, ВШЭ, МГУ, HSE, MSU, Vue, React, DevOps, Docker, NodeJs, Express, работа">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Толкачев Петр - Fullstack Developer">
-    <meta property="og:description" content="Официальный сайт Толкачева Петра, профессионального Fullstack Developer.">
 
-    
-    <!-- Также можно использовать Schema.org markup для дополнительной индексации -->
+    <!-- Мета-тэги для SEO -->
+    <title>Толкачев Петр / Petr Tolkachev — Platform Engineer</title>
+    <meta name="description" content="Петр Толкачёв (Petr Tolkachev) — платформенный инженер: feature flags, progressive delivery, internal developer platforms. TypeScript, Node.js, React, Kubernetes, Unleash, Backstage, Keycloak.">
+    <meta name="keywords" content="Толкачев Петр, Толкачёв Пётр, Petr Tolkachev, Peter Tolkachev, TolkachevPeter, Platform Engineer, платформенный инженер, Developer Experience, feature flags, фичефлаги, progressive delivery, Unleash, Backstage, DORA, TypeScript, JavaScript, Node.js, React, Kubernetes, Docker, CI/CD, Keycloak, OAuth2, OIDC, PostgreSQL, МГУ, MSU, работа, удаленно">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Petr Tolkachev — Platform Engineer">
+    <meta property="og:description" content="Feature flags, progressive delivery, internal developer platforms. TypeScript · Node.js · Kubernetes.">
+
+    <!-- Schema.org markup для дополнительной индексации -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "Person",
-        "name": "Толкачев Петр",
-        "alternateName": "TolkachevPeter",
-        "jobTitle": "Fullstack Developer"
+        "name": "Petr Tolkachev",
+        "alternateName": ["Peter Tolkachev", "Толкачёв Пётр", "Толкачев Петр", "TolkachevPeter"],
+        "jobTitle": "Platform Engineer",
+        "description": "Platform engineer: feature flags, progressive delivery, internal developer platforms. TypeScript, Node.js, Kubernetes.",
+        "knowsAbout": ["Platform Engineering", "Developer Experience", "Feature Flags", "Progressive Delivery", "TypeScript", "Node.js", "React", "Kubernetes", "Backstage", "Unleash", "DORA Metrics", "Keycloak", "OAuth2", "OIDC"],
+        "alumniOf": "Lomonosov Moscow State University",
+        "url": "https://tolkachev.space",
+        "sameAs": [
+            "https://github.com/TolkachevPeter",
+            "https://www.linkedin.com/in/tolkachevpeter",
+            "https://habr.com/ru/users/PeterTolkachev/",
+            "https://career.habr.com/tolkachevpeter",
+            "https://istina.msu.ru/profile/peter.tolkachev/",
+            "https://tolkachev.space",
+            "https://ptolkachev.ru"
+        ]
     }
     </script>
 </head>
-
 ```
 </details>
