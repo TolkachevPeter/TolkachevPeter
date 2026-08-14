@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://ptolkachev.ru">ptolkachev.ru</a> ·
   <a href="https://tolkachev.space">tolkachev.space</a> ·
   <a href="https://www.linkedin.com/in/tolkachevpeter">LinkedIn</a> ·
   <a href="https://habr.com/ru/users/PeterTolkachev/">Habr</a> ·
@@ -55,7 +56,7 @@ Node.js on the back, Vue and Nuxt with SSR on the front. I moved realtime delive
 
 It is an overview piece, and the commenters were right that it stays too general. The specific version, with the fork, the rollout and everything that went wrong on the way, is what I am writing next.
 
-Essays on platforms, digital labour and how infrastructure shapes the people working inside it live at [tolkachev.space](https://tolkachev.space).
+Essays on platforms, digital labour and how infrastructure shapes the people working inside it live at [ptolkachev.ru](https://ptolkachev.ru).
 
 ## Stack
 
